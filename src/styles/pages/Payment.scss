@@ -1,0 +1,53 @@
+.Payment {
+  margin: 0 auto;
+  width: 70%;
+}
+.Payment-back {
+  margin: 10px 0 0 0;
+}
+.Payment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .fas{
+    margin: 0 0 0 10px;
+    color: rgba(0,0,0,0.4);
+    cursor: pointer;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+}
+
+.Payment-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+
+  h4 {
+    margin: 0;
+    font-weight: 400;
+  };
+
+};
+
+.Payment-content{
+
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 8px 14px 38px rgb(39 44 49 / 6%), 1px 3px 8px rgb(39 44 49 / 3%);
+
+  p{
+    font-weight: 700;
+    border-bottom: 2px solid #55a3df;
+  }
+}
